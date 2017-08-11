@@ -1,0 +1,169 @@
+@font-face{
+	font-family: Essays;
+	src: url(../fonts/Essays1743.ttf?);
+}
+
+@font-face{
+	font-family: Libertine;
+	src: url(../fonts/Libertine.ttf?);
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	margin-bottom: 32px;
+	word-spacing: 1px;
+}
+
+h1, h2 {
+	font-family: Essays, serif;
+	line-height: 55px;
+}
+
+div, h2{
+	margin: 45px 0 45px 0;
+}
+
+div {
+	font-size: 35px;
+	font-family: "Arial Unicode MS", serif;
+}
+
+h1, h3{
+	text-align: center;
+}
+
+p, label{
+	font-size: 18px;
+	font-family: Libertine, serif;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 72px 0 72px 0;
+}
+
+p {
+	line-height: 30px;
+	text-align: justify;
+}
+
+h2 {
+	font-size: 38px;
+	text-align: left;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #b22222;
+	border-bottom: 1px dotted;
+}
+
+a:visited {
+	color: #bc8f8f;
+	border-bottom: 1px dotted;
+}
+
+label {
+	margin: 28px 0 28px 0;
+	line-height: 30px;
+}
+
+code {
+	font-family: 'Consolas'; 
+	font-size: 16px;
+}
+
+table, th, td {
+	font-size: 18px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th { 
+	font-family: Essays; 
+	text-align: left; 
+	background: #000; 
+	color: #fff;
+	padding: 5px;
+}
+
+td { 
+	font-family: Libertine, serif;
+	text-align: justify;
+	line-height: 30px;
+	padding-left: 40px;
+}
+
+.uahere{
+	margin: 28px 0 28px 0;
+}
+
+.showmenu{
+	clear: both; 
+	display: none;
+}
+.showmenu:not(:checked) + label + *{
+	clear: both; 
+	display: none; 
+}
+.showmenu:not(:checked) + label,
+.showmenu:checked + label{
+	clear: both; 
+	display: inline-block;
+	cursor: pointer;
+	color: #b22222;
+	/*border-bottom: 1px dotted;*/
+}
+.showmenu:checked + label{
+	clear: both; 
+	color: #bc8f8f;
+	border-bottom: 1px dotted;
+}
+.showhide{
+	text-align: center;
+	font-size: 18px;
+	font-family: Libertine, serif;
+}
+
+.backtop{
+	text-align: right;
+}
+
+.imgright{
+	margin: 0 0 28px 28px;
+}
+
+.imgleft{
+	margin: 0 28px 28px 0;
+}
+
+.tab{
+	margin-left: 40px;
+}
+
+.imgtable{
+	margin-top: 28px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 58px;
+}
+
+.copyright, .copyright > a{
+	text-align: center;
+	font-size: 16px;
+	color: inherit;
+}
+
+.formstyle, .formstyle > div{
+	text-align: center;
+	margin-top: 0px;
+}
