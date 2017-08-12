@@ -157,13 +157,15 @@ td {
 	margin-left: 58px;
 }
 
-.copyright, .copyright > a{
+.copyright, 
+.copyright > a{
 	text-align: center;
 	font-size: 16px;
 	color: inherit;
 }
 
-.formstyle, .formstyle > div{
+.formstyle, 
+.formstyle > div{
 	text-align: center;
 	margin-top: 0px;
 }
